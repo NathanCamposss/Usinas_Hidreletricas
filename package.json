@@ -1,0 +1,11 @@
+{
+  "name": "googlecharts",
+  "version": "1.0.0",
+  "description": "Projeto de mapas",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run build index.html"
+  },
+  "author": "Nathan",
+  "license": "ISC"
+}
