@@ -14,7 +14,8 @@
      "Estado": "Amazonas AM",
      "Área do reservatório (hectares)": 272877.28,
      "Inauguração": 1989,
-     "Coordenadas": [-1.91575, -59.473611111111], "Índice": 1092.6017217217218
+     "Coordenadas": [-1.91575, -59.473611111111],
+    "Índice": 1092.6017217217218
     },
     {
      "ID": 83,
@@ -32,7 +33,8 @@
      "Estado": "São Paulo SP",
      "Área do reservatório (hectares)": 41352.1,
      "Inauguração": 1962,
-     "Coordenadas": [-23.21, -49.230277777778], "Índice": 409.5889461172742
+     "Coordenadas": [-23.21, -49.230277777778],
+    "Índice": 409.5889461172742
     },
     {
      "ID": 153,
@@ -49,7 +51,8 @@
      "Estado": "Bahia BA",
      "Área do reservatório (hectares)": 315995.3,
      "Inauguração": 1982,
-     "Coordenadas": [-9.4253111111111, -40.825061111111], "Índice": 300.8619442064172
+     "Coordenadas": [-9.4253111111111, -40.825061111111],
+    "Índice": 300.8619442064172
     },
     {
      "ID": 134,
@@ -66,7 +69,8 @@
      "Estado": "Rondônia RO",
      "Área do reservatório (hectares)": 47463.54,
      "Inauguração": 1996,
-     "Coordenadas": [-8.75, -63.45], "Índice": 218.92776752767526
+     "Coordenadas": [-8.75, -63.45],
+    "Índice": 218.92776752767526
     },
     {
      "ID": 159,
@@ -83,7 +87,8 @@
      "Estado": "Minas Gerais MG",
      "Área do reservatório (hectares)": 85579.03,
      "Inauguração": 1962,
-     "Coordenadas": [-18.213333333333, -45.261111111111], "Índice": 216.1086616161616
+     "Coordenadas": [-18.213333333333, -45.261111111111],
+    "Índice": 216.1086616161616
     },
     {
      "ID": 11,
@@ -100,7 +105,8 @@
      "Estado": "Goiás GO",
      "Área do reservatório (hectares)": 10488.04,
      "Inauguração": 2014,
-     "Coordenadas": [ -17.35537738675265, -47.501636301622447 ], "Índice": 199.7721904761905
+     "Coordenadas": [ -17.35537738675265, -47.501636301622447 ],
+    "Índice": 199.7721904761905
     },
     {
      "ID": 118,
@@ -118,7 +124,8 @@
      "Estado": "São Paulo SP",
      "Área do reservatório (hectares)": 51854.74,
      "Inauguração": 1975,
-     "Coordenadas": [-21.297777777778, -49.783611111111], "Índice": 196.41946969696968
+     "Coordenadas": [-21.297777777778, -49.783611111111],
+    "Índice": 196.41946969696968
     },
     {
      "ID": 8,
@@ -136,7 +143,8 @@
      "Estado": "São Paulo SP",
      "Área do reservatório (hectares)": 26804.87,
      "Inauguração": 1963,
-     "Coordenadas": [-22.516666666667, -48.533333333333], "Índice": 190.42959647627168
+     "Coordenadas": [-22.516666666667, -48.533333333333],
+    "Índice": 190.42959647627168
     },
     {
      "ID": 87,
@@ -154,7 +162,8 @@
      "Estado": "Mato Grosso MT",
      "Área do reservatório (hectares)": 34543.33,
      "Inauguração": 2000,
-     "Coordenadas": [ -14.872393004009449,-55.784213425434693 ], "Índice": 164.49204761904764
+     "Coordenadas": [ -14.872393004009449,-55.784213425434693 ],
+    "Índice": 164.49204761904764
     },
     {
      "ID": 100,
@@ -171,7 +180,8 @@
      "Estado": "São Paulo SP",
      "Área do reservatório (hectares)": 13163.19,
      "Inauguração": 1978,
-     "Coordenadas": [-23.4125, -45.6025], "Índice": 151.26626062974032
+     "Coordenadas": [-23.4125, -45.6025],
+    "Índice": 151.26626062974032
     },
     {
      "ID": 77,
@@ -188,7 +198,8 @@
      "Estado": "São Paulo SP",
      "Área do reservatório (hectares)": 3890.28,
      "Inauguração": 1981,
-     "Coordenadas": [-23.193088888889, -46.021188888889], "Índice": 140.95217391304348
+     "Coordenadas": [-23.193088888889, -46.021188888889],
+    "Índice": 140.95217391304348
     },
     {
      "ID": 13,
@@ -205,7 +216,8 @@
      "Estado": "Piauí PI",
      "Área do reservatório (hectares)": 32901.69,
      "Inauguração": 1970,
-     "Coordenadas": [-6.749105791458703,-43.566576447683502  ], "Índice": 138.65018963337548
+     "Coordenadas": [-6.749105791458703,-43.566576447683502  ],
+    "Índice": 138.65018963337548
     },
     {
      "ID": 117,
@@ -222,7 +234,8 @@
      "Estado": "São Paulo SP",
      "Área do reservatório (hectares)": 209384.03,
      "Inauguração": 1999,
-     "Coordenadas": [-22.475277777778, -52.958333333333], "Índice": 135.96365584415585
+     "Coordenadas": [-22.475277777778, -52.958333333333],
+    "Índice": 135.96365584415585
     },
     {
      "ID": 22,
@@ -239,7 +252,8 @@
      "Estado": "Minas Gerais MG",
      "Área do reservatório (hectares)": 5981.7,
      "Inauguração": 1960,
-     "Coordenadas": [-21.324444444444, -44.616111111111], "Índice": 130.0369565217391
+     "Coordenadas": [-21.324444444444, -44.616111111111],
+    "Índice": 130.0369565217391
     },
     {
      "ID": 39,
@@ -256,7 +270,8 @@
      "Estado": "Pará PA",
      "Área do reservatório (hectares)": 5554.84,
      "Inauguração": 1977,
-     "Coordenadas": [-2.8121, -54.299530555556], "Índice": 129.78598130841124
+     "Coordenadas": [-2.8121, -54.299530555556],
+    "Índice": 129.78598130841124
     },
     {
      "ID": 102,
@@ -273,7 +288,8 @@
      "Estado": "Rio Grande do Sul RS",
      "Área do reservatório (hectares)": 20263.68,
      "Inauguração": 1973,
-     "Coordenadas": [-29.016666666667, -53.19], "Índice": 128.25113924050632
+     "Coordenadas": [-29.016666666667, -53.19],
+    "Índice": 128.25113924050632
     },
     {
      "ID": 122,
@@ -289,7 +305,8 @@
      "Estado": "Rondônia RO",
      "Área do reservatório (hectares)": 8383,
      "Inauguração": 2011,
-     "Coordenadas": [-11.964809999798581,-60.699844884396043 ], "Índice": 114.05442176870748
+     "Coordenadas": [-11.964809999798581,-60.699844884396043 ],
+    "Índice": 114.05442176870748
     },
     {
      "ID": 55,
@@ -306,7 +323,8 @@
      "Estado": "Minas Gerais MG",
      "Área do reservatório (hectares)": 120315.59,
      "Inauguração": 1963,
-     "Coordenadas": [ -20.66980119970604,-46.317802300306212  ], "Índice": 98.94374177631579
+     "Coordenadas": [ -20.66980119970604,-46.317802300306212  ],
+    "Índice": 98.94374177631579
     },
     {
      "ID": 38,
@@ -324,7 +342,8 @@
      "Estado": "Goiás GO",
      "Área do reservatório (hectares)": 12178.28,
      "Inauguração": 2006,
-     "Coordenadas": [-16.32321054504682,-48.184584521191653 ], "Índice": 95.89196850393701
+     "Coordenadas": [-16.32321054504682,-48.184584521191653 ],
+    "Índice": 95.89196850393701
     },
     {
      "ID": 150,
@@ -342,7 +361,8 @@
      "Estado": "Goiás GO",
      "Área do reservatório (hectares)": 20084.67,
      "Inauguração": 2010,
-     "Coordenadas": [-18.046347381100059,-47.675722775683859 ], "Índice": 94.48052497883148
+     "Coordenadas": [-18.046347381100059,-47.675722775683859 ],
+    "Índice": 94.48052497883148
     },
     {
      "ID": 30,
@@ -360,7 +380,8 @@
      "Estado": "São Paulo SP",
      "Área do reservatório (hectares)": 56353.47,
      "Inauguração": 1977,
-     "Coordenadas": [-22.493425, -51.357977777778], "Índice": 91.03953150242326
+     "Coordenadas": [-22.493425, -51.357977777778],
+    "Índice": 91.03953150242326
     },
     {
      "ID": 33,
@@ -378,7 +399,8 @@
      "Estado": "São Paulo SP",
      "Área do reservatório (hectares)": 36275.68,
      "Inauguração": 1970,
-     "Coordenadas": [-23.128333333333, -49.733055555556], "Índice": 87.6224154589372
+     "Coordenadas": [-23.128333333333, -49.733055555556],
+    "Índice": 87.6224154589372
     },
     {
      "ID": 43,
@@ -396,7 +418,8 @@
      "Estado": "Goiás GO",
      "Área do reservatório (hectares)": 2775.98,
      "Inauguração": 2006,
-     "Coordenadas": [-18.678912196616938,-51.864999625888679  ], "Índice": 86.749375
+     "Coordenadas": [-18.678912196616938,-51.864999625888679  ],
+    "Índice": 86.749375
     },
     {
      "ID": 108,
@@ -413,7 +436,8 @@
      "Estado": "Bahia BA",
      "Área do reservatório (hectares)": 13393.75,
      "Inauguração": 2004,
-     "Coordenadas": [-12.5836288239017,-39.002246392363908 ], "Índice": 83.7109375
+     "Coordenadas": [-12.5836288239017,-39.002246392363908 ],
+    "Índice": 83.7109375
     },
     {
      "ID": 149,
@@ -431,7 +455,8 @@
      "Estado": "Goiás GO",
      "Área do reservatório (hectares)": 103452.55,
      "Inauguração": 1998,
-     "Coordenadas": [-13.8290988865936,-48.306504116793107 ], "Índice": 81.13925490196078
+     "Coordenadas": [-13.8290988865936,-48.306504116793107 ],
+    "Índice": 81.13925490196078
     },
     {
      "ID": 158,
@@ -449,7 +474,8 @@
      "Estado": "São Paulo SP",
      "Área do reservatório (hectares)": 65141.93,
      "Inauguração": 1993,
-     "Coordenadas": [-20.665243950781718,-51.302489270675153 ], "Índice": 80.67112074303405
+     "Coordenadas": [-20.665243950781718,-51.302489270675153 ],
+    "Índice": 80.67112074303405
     },
     {
      "ID": 97,
@@ -466,7 +492,8 @@
      "Estado": "Minas Gerais MG",
      "Área do reservatório (hectares)": 40634.2,
      "Inauguração": 1994,
-     "Coordenadas": [-19.125455707931032,-47.700700590708372  ], "Índice": 79.67490196078431
+     "Coordenadas": [-19.125455707931032,-47.700700590708372  ],
+    "Índice": 79.67490196078431
     },
     {
      "ID": 84,
@@ -484,7 +511,8 @@
      "Estado": "Tocantins TO",
      "Área do reservatório (hectares)": 65864.07,
      "Inauguração": 2001,
-     "Coordenadas": [-9.756136387379954,-48.372828864494878 ], "Índice": 72.97957894736842
+     "Coordenadas": [-9.756136387379954,-48.372828864494878 ],
+    "Índice": 72.97957894736842
     },
     {
      "ID": 60,
@@ -502,7 +530,8 @@
      "Estado": "São Paulo SP",
      "Área do reservatório (hectares)": 9199.37,
      "Inauguração": 1969,
-     "Coordenadas": [-21.757777777778, -48.991666666667], "Índice": 69.96250665449844
+     "Coordenadas": [-21.757777777778, -48.991666666667],
+    "Índice": 69.96250665449844
     },
     {
      "ID": 37,
@@ -520,7 +549,8 @@
      "Estado": "Goiás GO",
      "Área do reservatório (hectares)": 6660.45,
      "Inauguração": 2009,
-     "Coordenadas": [-16.789399295291719,-47.935815895884517 ], "Índice": 69.03451492537313
+     "Coordenadas": [-16.789399295291719,-47.935815895884517 ],
+    "Índice": 69.03451492537313
     },
     {
      "ID": 101,
@@ -538,7 +568,8 @@
      "Estado": "Rio Grande do Sul RS",
      "Área do reservatório (hectares)": 12939.05,
      "Inauguração": 1973,
-     "Coordenadas": [-27.552947222222, -52.741263888889], "Índice": 57.25243362831858
+     "Coordenadas": [-27.552947222222, -52.741263888889],
+    "Índice": 57.25243362831858
     },
     {
      "ID": 96,
@@ -556,7 +587,8 @@
      "Estado": "São Paulo SP",
      "Área do reservatório (hectares)": 19452.69,
      "Inauguração": 1982,
-     "Coordenadas": [-21.116666666667, -50.2], "Índice": 55.995077720207256
+     "Coordenadas": [-21.116666666667, -50.2],
+    "Índice": 55.995077720207256
     },
     {
      "ID": 124,
@@ -574,7 +606,8 @@
      "Estado": "São Paulo SP",
      "Área do reservatório (hectares)": 19610.5,
      "Inauguração": 1987,
-     "Coordenadas": [-22.601944444444, -52.872222222222], "Índice": 55.39689265536723
+     "Coordenadas": [-22.601944444444, -52.872222222222],
+    "Índice": 55.39689265536723
     },
     {
      "ID": 109,
@@ -592,7 +625,8 @@
      "Estado": "Tocantins TO",
      "Área do reservatório (hectares)": 25238.35,
      "Inauguração": 2006,
-     "Coordenadas": [-12.235111516887811,-48.386477656198018 ], "Índice": 50.603208020050126
+     "Coordenadas": [-12.235111516887811,-48.386477656198018 ],
+    "Índice": 50.603208020050126
     },
     {
      "ID": 68,
@@ -609,7 +643,8 @@
      "Estado": "Bahia BA",
      "Área do reservatório (hectares)": 74204.77,
      "Inauguração": 1988,
-     "Coordenadas": [-9.1427777777778, -38.31], "Índice": 50.151912679102466
+     "Coordenadas": [-9.1427777777778, -38.31],
+    "Índice": 50.151912679102466
     },
     {
      "ID": 126,
@@ -627,7 +662,8 @@
      "Estado": "Goiás GO",
      "Área do reservatório (hectares)": 5782.94,
      "Inauguração": 2010,
-     "Coordenadas": [-18.641861111111, -51.170361111111], "Índice": 49.85293103448276
+     "Coordenadas": [-18.641861111111, -51.170361111111],
+    "Índice": 49.85293103448276
     },
     {
      "ID": 110,
@@ -645,7 +681,8 @@
      "Estado": "Minas Gerais MG",
      "Área do reservatório (hectares)": 23262.44,
      "Inauguração": 1957,
-     "Coordenadas": [-20.286383420708368,-47.064499764990103 ], "Índice": 48.87067226890756
+     "Coordenadas": [-20.286383420708368,-47.064499764990103 ],
+    "Índice": 48.87067226890756
     },
     {
      "ID": 161,
@@ -662,7 +699,8 @@
      "Estado": "Minas Gerais MG",
      "Área do reservatório (hectares)": 18206.34,
      "Inauguração": 1974,
-     "Coordenadas": [-20.033333333333, -48.216666666667], "Índice": 47.91142105263158
+     "Coordenadas": [-20.033333333333, -48.216666666667],
+    "Índice": 47.91142105263158
     },
     {
      "ID": 2,
@@ -680,7 +718,8 @@
      "Estado": "São Paulo SP",
      "Área do reservatório (hectares)": 59243.15,
      "Inauguração": 1978,
-     "Coordenadas": [-19.864358333333, -50.347133333333], "Índice": 42.431707491763355
+     "Coordenadas": [-19.864358333333, -50.347133333333],
+    "Índice": 42.431707491763355
     },
     {
      "ID": 115,
@@ -697,7 +736,8 @@
      "Estado": "Minas Gerais MG",
      "Área do reservatório (hectares)": 12785.95,
      "Inauguração": 1973,
-     "Coordenadas": [-20.125832999883091,-48.572221997760671 ], "Índice": 39.95609375
+     "Coordenadas": [-20.125832999883091,-48.572221997760671 ],
+    "Índice": 39.95609375
     },
     {
      "ID": 132,
@@ -714,7 +754,8 @@
      "Estado": "Goiás GO",
      "Área do reservatório (hectares)": 3655,
      "Inauguração": 2010,
-     "Coordenadas": [-19.142617501226638,-50.754007901051153 ], "Índice": 39.30107526881721
+     "Coordenadas": [-19.142617501226638,-50.754007901051153 ],
+    "Índice": 39.30107526881721
     },
     {
      "ID": 44,
@@ -732,7 +773,8 @@
      "Estado": "Tocantins TO",
      "Área do reservatório (hectares)": 41264.78,
      "Inauguração": 2011,
-     "Coordenadas": [-6.588908625755827,-47.458612402610143  ], "Índice": 37.962079116835326
+     "Coordenadas": [-6.588908625755827,-47.458612402610143  ],
+    "Índice": 37.962079116835326
     },
     {
      "ID": 147,
@@ -749,7 +791,8 @@
      "Estado": "Minas Gerais MG",
      "Área do reservatório (hectares)": 60947.15,
      "Inauguração": 1978,
-     "Coordenadas": [-19.019166666667, -50.499722222222], "Índice": 35.6416081871345
+     "Coordenadas": [-19.019166666667, -50.499722222222],
+    "Índice": 35.6416081871345
     },
     {
      "ID": 63,
@@ -767,7 +810,8 @@
      "Estado": "São Paulo SP",
      "Área do reservatório (hectares)": 116481.79,
      "Inauguração": 1973,
-     "Coordenadas": [-20.383333333333, -51.35], "Índice": 33.82165795586527
+     "Coordenadas": [-20.383333333333, -51.35],
+    "Índice": 33.82165795586527
     },
     {
      "ID": 72,
@@ -784,7 +828,8 @@
      "Estado": "Minas Gerais MG",
      "Área do reservatório (hectares)": 70185.07,
      "Inauguração": 1980,
-     "Coordenadas": [-18.40697829694842,-49.098143508518604 ], "Índice": 33.71040826128723
+     "Coordenadas": [-18.40697829694842,-49.098143508518604 ],
+    "Índice": 33.71040826128723
     },
     {
      "ID": 146,
@@ -801,7 +846,8 @@
      "Estado": "Tocantins TO",
      "Área do reservatório (hectares)": 8039.99,
      "Inauguração": 2009,
-     "Coordenadas": [-12.808240800040631,-48.23815625333777 ], "Índice": 33.059169407894736
+     "Coordenadas": [-12.808240800040631,-48.23815625333777 ],
+    "Índice": 33.059169407894736
     },
     {
      "ID": 160,
@@ -818,7 +864,8 @@
      "Estado": "Pará PA",
      "Área do reservatório (hectares)": 278385.59,
      "Inauguração": 1984,
-     "Coordenadas": [-3.832381971492159,-49.642756913665977 ], "Índice": 32.61694083186878
+     "Coordenadas": [-3.832381971492159,-49.642756913665977 ],
+    "Índice": 32.61694083186878
     },
     {
      "ID": 103,
@@ -835,7 +882,8 @@
      "Estado": "Rio Grande do Sul RS",
      "Área do reservatório (hectares)": 2470.49,
      "Inauguração": 2012,
-     "Coordenadas": [-28.131444444444, -55.054416666667], "Índice": 32.08428571428571
+     "Coordenadas": [-28.131444444444, -55.054416666667],
+    "Índice": 32.08428571428571
     },
     {
      "ID": 42,
@@ -852,7 +900,8 @@
      "Estado": "Minas Gerais MG",
      "Área do reservatório (hectares)": 38236.88,
      "Inauguração": 1982,
-     "Coordenadas": [-18.451388888889, -47.986944444444], "Índice": 32.07791946308725
+     "Coordenadas": [-18.451388888889, -47.986944444444],
+    "Índice": 32.07791946308725
     },
     {
      "ID": 34,
@@ -869,7 +918,8 @@
      "Estado": "Amapá AP",
      "Área do reservatório (hectares)": 2443.11,
      "Inauguração": 1975,
-     "Coordenadas": [0.902562498541106,-51.259905265943218 ], "Índice": 31.321923076923078
+     "Coordenadas": [0.902562498541106,-51.259905265943218 ],
+    "Índice": 31.321923076923078
     },
     {
      "ID": 141,
@@ -886,7 +936,8 @@
      "Estado": "Mato Grosso do Sul MS",
      "Área do reservatório (hectares)": 1500,
      "Inauguração": 2013,
-     "Coordenadas": [-20.065277777778, -53.1925], "Índice": 31.25
+     "Coordenadas": [-20.065277777778, -53.1925],
+    "Índice": 31.25
     },
     {
      "ID": 7,
@@ -904,7 +955,8 @@
      "Estado": "São Paulo SP",
      "Área do reservatório (hectares)": 4453.59,
      "Inauguração": 1969,
-     "Coordenadas": [-22.153888888889, -48.753611111111], "Índice": 31.122222222222224
+     "Coordenadas": [-22.153888888889, -48.753611111111],
+    "Índice": 31.122222222222224
     },
     {
      "ID": 64,
@@ -921,7 +973,8 @@
      "Estado": "Minas Gerais MG",
      "Área do reservatório (hectares)": 12260.43,
      "Inauguração": 2006,
-     "Coordenadas": [-16.74050460981589,-42.572217729488919 ], "Índice": 30.727894736842106
+     "Coordenadas": [-16.74050460981589,-42.572217729488919 ],
+    "Índice": 30.727894736842106
     },
     {
      "ID": 26,
@@ -939,7 +992,8 @@
      "Estado": "São Paulo SP",
      "Área do reservatório (hectares)": 2490.63,
      "Inauguração": 1999,
-     "Coordenadas": [-22.940555555556, -50.517222222222], "Índice": 30.189454545454545
+     "Coordenadas": [-22.940555555556, -50.517222222222],
+    "Índice": 30.189454545454545
     },
     {
      "ID": 136,
@@ -956,7 +1010,8 @@
      "Estado": "São Paulo SP",
      "Área do reservatório (hectares)": 1615.66,
      "Inauguração": 1999,
-     "Coordenadas": [-23.374361111111, -45.872888888889], "Índice": 28.799643493761142
+     "Coordenadas": [-23.374361111111, -45.872888888889],
+    "Índice": 28.799643493761142
     },
     {
      "ID": 27,
@@ -974,7 +1029,8 @@
      "Estado": "São Paulo SP",
      "Área do reservatório (hectares)": 1944.19,
      "Inauguração": 1999,
-     "Coordenadas": [-22.938611111111, -50.251111111111], "Índice": 27.00263888888889
+     "Coordenadas": [-22.938611111111, -50.251111111111],
+    "Índice": 27.00263888888889
     },
     {
      "ID": 121,
@@ -992,7 +1048,8 @@
      "Estado": "Minas Gerais MG",
      "Área do reservatório (hectares)": 2258,
      "Inauguração": 2010,
-     "Coordenadas": [-18.875840415739329,-44.781574848770362 ], "Índice": 26.990198422185035
+     "Coordenadas": [-18.875840415739329,-44.781574848770362 ],
+    "Índice": 26.990198422185035
     },
     {
      "ID": 20,
@@ -1010,7 +1067,8 @@
      "Estado": "São Paulo SP",
      "Área do reservatório (hectares)": 2165.43,
      "Inauguração": 1966,
-     "Coordenadas": [-21.574722222222, -46.623611111111], "Índice": 26.933208955223876
+     "Coordenadas": [-21.574722222222, -46.623611111111],
+    "Índice": 26.933208955223876
     },
     {
      "ID": 24,
@@ -1027,7 +1085,8 @@
      "Estado": "Goiás GO",
      "Área do reservatório (hectares)": 12035.6,
      "Inauguração": 2002,
-     "Coordenadas": [-13.4022269671503,-48.14321604385529 ], "Índice": 26.74577777777778
+     "Coordenadas": [-13.4022269671503,-48.14321604385529 ],
+    "Índice": 26.74577777777778
     },
     {
      "ID": 9,
@@ -1045,7 +1104,8 @@
      "Estado": "Goiás GO",
      "Área do reservatório (hectares)": 2293.95,
      "Inauguração": 2010,
-     "Coordenadas": [-18.722083333333, -51.002083333333], "Índice": 25.48833333333333
+     "Coordenadas": [-18.722083333333, -51.002083333333],
+    "Índice": 25.48833333333333
     },
     {
      "ID": 88,
@@ -1062,7 +1122,8 @@
      "Estado": "Minas Gerais MG",
      "Área do reservatório (hectares)": 36271.15,
      "Inauguração": 1975,
-     "Coordenadas": [-20.303276708846369,-49.19788928082874 ], "Índice": 25.18829861111111
+     "Coordenadas": [-20.303276708846369,-49.19788928082874 ],
+    "Índice": 25.18829861111111
     },
     {
      "ID": 120,
@@ -1079,7 +1140,8 @@
      "Estado": "Minas Gerais MG",
      "Área do reservatório (hectares)": 2450.55,
      "Inauguração": 2004,
-     "Coordenadas": [-16.21043420012824,-47.322949399186349 ], "Índice": 23.33857142857143
+     "Coordenadas": [-16.21043420012824,-47.322949399186349 ],
+    "Índice": 23.33857142857143
     },
     {
      "ID": 21,
@@ -1097,7 +1159,8 @@
      "Estado": "Goiás GO",
      "Área do reservatório (hectares)": 1430.66,
      "Inauguração": 2010,
-     "Coordenadas": [-18.533, -51.148444444444], "Índice": 22.010153846153848
+     "Coordenadas": [-18.533, -51.148444444444],
+    "Índice": 22.010153846153848
     },
     {
      "ID": 14,
@@ -1115,7 +1178,8 @@
      "Estado": "Amapá AP",
      "Área do reservatório (hectares)": 4799,
      "Inauguração": 2016,
-     "Coordenadas": [0.85230555555556, -51.292972222222], "Índice": 21.91324200913242
+     "Coordenadas": [0.85230555555556, -51.292972222222],
+    "Índice": 21.91324200913242
     },
     {
      "ID": 113,
@@ -1132,7 +1196,8 @@
      "Estado": "São Paulo SP",
      "Área do reservatório (hectares)": 1410.66,
      "Inauguração": 2002,
-     "Coordenadas": [-23.15395380140313,-49.379629300046481  ], "Índice": 20.152285714285714
+     "Coordenadas": [-23.15395380140313,-49.379629300046481  ],
+    "Índice": 20.152285714285714
     },
     {
      "ID": 94,
@@ -1149,7 +1214,8 @@
      "Estado": "Bahia BA",
      "Área do reservatório (hectares)": 8035.17,
      "Inauguração": 1977,
-     "Coordenadas": [-9.3572704665117,-38.207236023869477 ], "Índice": 20.087925
+     "Coordenadas": [-9.3572704665117,-38.207236023869477 ],
+    "Índice": 20.087925
     },
     {
      "ID": 29,
@@ -1167,7 +1233,8 @@
      "Estado": "Minas Gerais MG",
      "Área do reservatório (hectares)": 4213.93,
      "Inauguração": 2007,
-     "Coordenadas": [-18.659018994281411,-48.437348995936752 ], "Índice": 20.066333333333336
+     "Coordenadas": [-18.659018994281411,-48.437348995936752 ],
+    "Índice": 20.066333333333336
     },
     {
      "ID": 82,
@@ -1185,7 +1252,8 @@
      "Estado": "São Paulo SP",
      "Área do reservatório (hectares)": 29714.84,
      "Inauguração": 1969,
-     "Coordenadas": [-20.779166666667, -51.629166666667], "Índice": 19.156034038164
+     "Coordenadas": [-20.779166666667, -51.629166666667],
+    "Índice": 19.156034038164
     },
     {
      "ID": 61,
@@ -1203,7 +1271,8 @@
      "Estado": "Minas Gerais MG",
      "Área do reservatório (hectares)": 3967.29,
      "Inauguração": 1998,
-     "Coordenadas": [-19.99181059980754,-47.757997498791262 ], "Índice": 18.89185714285714
+     "Coordenadas": [-19.99181059980754,-47.757997498791262 ],
+    "Índice": 18.89185714285714
     },
     {
      "ID": 155,
@@ -1221,7 +1290,8 @@
      "Estado": "São Paulo SP",
      "Área do reservatório (hectares)": 8526.21,
      "Inauguração": 1992,
-     "Coordenadas": [-22.541666666667, -51.999722222222], "Índice": 16.240399999999998
+     "Coordenadas": [-22.541666666667, -51.999722222222],
+    "Índice": 16.240399999999998
     },
     {
      "ID": 53,
@@ -1238,7 +1308,8 @@
      "Estado": "Minas Gerais MG",
      "Área do reservatório (hectares)": 3099.92,
      "Inauguração": 2002,
-     "Coordenadas": [-22.52884610091224,-44.567980000858078 ], "Índice": 14.351481481481482
+     "Coordenadas": [-22.52884610091224,-44.567980000858078 ],
+    "Índice": 14.351481481481482
     },
     {
      "ID": 56,
@@ -1256,7 +1327,8 @@
      "Estado": "Santa Catarina SC",
      "Área do reservatório (hectares)": 2753,
      "Inauguração": 2013,
-     "Coordenadas": [-27.636671944444, -51.001128055556], "Índice": 14.346013548723294
+     "Coordenadas": [-27.636671944444, -51.001128055556],
+    "Índice": 14.346013548723294
     },
     {
      "ID": 133,
@@ -1274,7 +1346,8 @@
      "Estado": "Paraná PR",
      "Área do reservatório (hectares)": 19204.71,
      "Inauguração": 1980,
-     "Coordenadas": [-25.617777777778, -52.613333333333], "Índice": 13.52444366197183
+     "Coordenadas": [-25.617777777778, -52.613333333333],
+    "Índice": 13.52444366197183
     },
     {
      "ID": 54,
@@ -1292,7 +1365,8 @@
      "Estado": "Rio de Janeiro RJ",
      "Área do reservatório (hectares)": 2431.68,
      "Inauguração": 1970,
-     "Coordenadas": [-21.143458333333, -45.036422222222], "Índice": 13.509333333333332
+     "Coordenadas": [-21.143458333333, -45.036422222222],
+    "Índice": 13.509333333333332
     },
     {
      "ID": 41,
@@ -1310,7 +1384,8 @@
      "Estado": "Rio Grande do Sul RS",
      "Área do reservatório (hectares)": 1667.16,
      "Inauguração": 2001,
-     "Coordenadas": [ -29.448022389632701,-53.285538030667801 ], "Índice": 13.33728
+     "Coordenadas": [ -29.448022389632701,-53.285538030667801 ],
+    "Índice": 13.33728
     },
     {
      "ID": 137,
@@ -1328,7 +1403,8 @@
      "Estado": "Paraná PR",
      "Área do reservatório (hectares)": 1593.51,
      "Inauguração": 2005,
-     "Coordenadas": [-25.666944444444, -51.9675], "Índice": 13.261567909454062
+     "Coordenadas": [-25.666944444444, -51.9675],
+    "Índice": 13.261567909454062
     },
     {
      "ID": 138,
@@ -1345,7 +1421,8 @@
      "Estado": "Minas Gerais MG",
      "Área do reservatório (hectares)": 746.77,
      "Inauguração": 2002,
-     "Coordenadas": [-17.895888888889, -40.201333333333], "Índice": 12.446166666666667
+     "Coordenadas": [-17.895888888889, -40.201333333333],
+    "Índice": 12.446166666666667
     },
     {
      "ID": 51,
@@ -1363,7 +1440,8 @@
      "Estado": "Goiás GO",
      "Área do reservatório (hectares)": 839,
      "Inauguração": 2010,
-     "Coordenadas": [-19.11751300011252,-50.646031999658817  ], "Índice": 12.266081871345028
+     "Coordenadas": [-19.11751300011252,-50.646031999658817  ],
+    "Índice": 12.266081871345028
     },
     {
      "ID": 69,
@@ -1381,7 +1459,8 @@
      "Estado": "Bahia BA",
      "Área do reservatório (hectares)": 5647,
      "Inauguração": 2003,
-     "Coordenadas": [-15.96843789992996,-39.586657599663269 ], "Índice": 12.222679162788685
+     "Coordenadas": [-15.96843789992996,-39.586657599663269 ],
+    "Índice": 12.222679162788685
     },
     {
      "ID": 36,
@@ -1398,7 +1477,8 @@
      "Estado": "Goiás GO",
      "Área do reservatório (hectares)": 4380.54,
      "Inauguração": 1996,
-     "Coordenadas": [-17.98986572800008,-48.530715838014089  ], "Índice": 11.68144
+     "Coordenadas": [-17.98986572800008,-48.530715838014089  ],
+    "Índice": 11.68144
     },
     {
      "ID": 91,
@@ -1416,7 +1496,8 @@
      "Estado": "Minas Gerais MG",
      "Área do reservatório (hectares)": 4606.06,
      "Inauguração": 1998,
-     "Coordenadas": [-18.910908019044118,-48.041742800264807 ], "Índice": 11.28936274509804
+     "Coordenadas": [-18.910908019044118,-48.041742800264807 ],
+    "Índice": 11.28936274509804
     },
     {
      "ID": 127,
@@ -1433,7 +1514,8 @@
      "Estado": "Paraná PR",
      "Área do reservatório (hectares)": 12554.38,
      "Inauguração": 1999,
-     "Coordenadas": [-25.543638646322901,-53.497804383179762 ], "Índice": 10.1245
+     "Coordenadas": [-25.543638646322901,-53.497804383179762 ],
+    "Índice": 10.1245
     },
     {
      "ID": 4,
@@ -1451,7 +1533,8 @@
      "Estado": "Minas Gerais MG",
      "Área do reservatório (hectares)": 1416,
      "Inauguração": 2009,
-     "Coordenadas": [-19.01805469738067,-42.123011550338333 ], "Índice": 10.114285714285714
+     "Coordenadas": [-19.01805469738067,-42.123011550338333 ],
+    "Índice": 10.114285714285714
     },
     {
      "ID": 66,
@@ -1468,7 +1551,8 @@
      "Estado": "Paraná PR",
      "Área do reservatório (hectares)": 133814.52,
      "Inauguração": 1984,
-     "Coordenadas": [-25.407777777778, -54.59], "Índice": 9.55818
+     "Coordenadas": [-25.407777777778, -54.59],
+    "Índice": 9.55818
     },
     {
      "ID": 3,
@@ -1486,7 +1570,8 @@
      "Estado": "Minas Gerais MG",
      "Área do reservatório (hectares)": 3036.91,
      "Inauguração": 2005,
-     "Coordenadas": [-19.5, -41.016666666667], "Índice": 9.202757575757575
+     "Coordenadas": [-19.5, -41.016666666667],
+    "Índice": 9.202757575757575
     },
     {
      "ID": 144,
@@ -1504,7 +1589,8 @@
      "Estado": "Mato Grosso MT",
      "Área do reservatório (hectares)": 6400,
      "Inauguração": 2018,
-     "Coordenadas": [-9.188683787534975,-57.05137520618635 ], "Índice": 9.142857142857142
+     "Coordenadas": [-9.188683787534975,-57.05137520618635 ],
+    "Índice": 9.142857142857142
     },
     {
      "ID": 10,
@@ -1522,7 +1608,8 @@
      "Estado": "Rio Grande do Sul RS",
      "Área do reservatório (hectares)": 6279.74,
      "Inauguração": 2005,
-     "Coordenadas": [-27.777733017590659,-51.193753534899741 ], "Índice": 9.101072463768116
+     "Coordenadas": [-27.777733017590659,-51.193753534899741 ],
+    "Índice": 9.101072463768116
     },
     {
      "ID": 139,
@@ -1540,7 +1627,8 @@
      "Estado": "Rondônia RO",
      "Área do reservatório (hectares)": 32048.9,
      "Inauguração": 2012,
-     "Coordenadas": [-8.803048024895656,-63.950247445688063 ], "Índice": 8.982315022421526
+     "Coordenadas": [-8.803048024895656,-63.950247445688063 ],
+    "Índice": 8.982315022421526
     },
     {
      "ID": 18,
@@ -1557,7 +1645,8 @@
      "Estado": "Goiás GO",
      "Área do reservatório (hectares)": 5850.29,
      "Inauguração": 1959,
-     "Coordenadas": [-18.502777777778, -49.490833333333], "Índice": 8.891018237082067
+     "Coordenadas": [-18.502777777778, -49.490833333333],
+    "Índice": 8.891018237082067
     },
     {
      "ID": 114,
@@ -1574,7 +1663,8 @@
      "Estado": "Mato Grosso MT",
      "Área do reservatório (hectares)": 1498.13,
      "Inauguração": 2005,
-     "Coordenadas": [-17.62154074803232,-54.890478638332667 ], "Índice": 8.50726859738785
+     "Coordenadas": [-17.62154074803232,-54.890478638332667 ],
+    "Índice": 8.50726859738785
     },
     {
      "ID": 140,
@@ -1592,7 +1682,8 @@
      "Estado": "Amapá AP",
      "Área do reservatório (hectares)": 3170,
      "Inauguração": 2014,
-     "Coordenadas": [-0.65108333333333, -52.516111111111], "Índice": 8.489555436529193
+     "Coordenadas": [-0.65108333333333, -52.516111111111],
+    "Índice": 8.489555436529193
     },
     {
      "ID": 156,
@@ -1610,7 +1701,8 @@
      "Estado": "Mato Grosso MT",
      "Área do reservatório (hectares)": 15180,
      "Inauguração": 2015,
-     "Coordenadas": [-9.340556000483758,-56.77694400128928 ], "Índice": 8.341575997362348
+     "Coordenadas": [-9.340556000483758,-56.77694400128928 ],
+    "Índice": 8.341575997362348
     },
     {
      "ID": 65,
@@ -1628,7 +1720,8 @@
      "Estado": "Rio Grande do Sul RS",
      "Área do reservatório (hectares)": 11829.69,
      "Inauguração": 2000,
-     "Coordenadas": [-27.276967042238059,-52.378115849952152 ], "Índice": 8.158406896551725
+     "Coordenadas": [-27.276967042238059,-52.378115849952152 ],
+    "Índice": 8.158406896551725
     },
     {
      "ID": 76,
@@ -1646,7 +1739,8 @@
      "Estado": "Minas Gerais MG",
      "Área do reservatório (hectares)": 3323.38,
      "Inauguração": 1971,
-     "Coordenadas": [-20.02381399920732,-47.433724999343397 ], "Índice": 7.8381603773584905
+     "Coordenadas": [-20.02381399920732,-47.433724999343397 ],
+    "Índice": 7.8381603773584905
     },
     {
      "ID": 28,
@@ -1664,7 +1758,8 @@
      "Estado": "Minas Gerais MG",
      "Área do reservatório (hectares)": 1847.84,
      "Inauguração": 2006,
-     "Coordenadas": [-18.77700793134473,-48.163312560497999 ], "Índice": 7.699333333333333
+     "Coordenadas": [-18.77700793134473,-48.163312560497999 ],
+    "Índice": 7.699333333333333
     },
     {
      "ID": 50,
@@ -1682,7 +1777,8 @@
      "Estado": "Santa Catarina SC",
      "Área do reservatório (hectares)": 5847.88,
      "Inauguração": 2010,
-     "Coordenadas": [-27.139944331736579,-53.041492467356207 ], "Índice": 6.839625730994152
+     "Coordenadas": [-27.139944331736579,-53.041492467356207 ],
+    "Índice": 6.839625730994152
     },
     {
      "ID": 92,
@@ -1699,7 +1795,8 @@
      "Estado": "Rio Grande do Sul RS",
      "Área do reservatório (hectares)": 505.63,
      "Inauguração": 2009,
-     "Coordenadas": [-22.023055555556, -47.926666666667], "Índice": 6.832837837837838
+     "Coordenadas": [-22.023055555556, -47.926666666667],
+    "Índice": 6.832837837837838
     },
     {
      "ID": 49,
@@ -1716,7 +1813,8 @@
      "Estado": "Paraná PR",
      "Área do reservatório (hectares)": 11398.79,
      "Inauguração": 1980,
-     "Coordenadas": [-26.006744444444, -51.669125], "Índice": 6.801187350835323
+     "Coordenadas": [-26.006744444444, -51.669125],
+    "Índice": 6.801187350835323
     },
     {
      "ID": 129,
@@ -1734,7 +1832,8 @@
      "Estado": "Minas Gerais MG",
      "Área do reservatório (hectares)": 491.58,
      "Inauguração": 1956,
-     "Coordenadas": [-22.904274901484509,-49.998259056177403 ], "Índice": 6.660975609756098
+     "Coordenadas": [-19.115833333333,-42.719166666667 ],
+    "Índice": 6.660975609756098
     },
     {
      "ID": 81,
@@ -1752,7 +1851,8 @@
      "Estado": "Rondônia RO",
      "Área do reservatório (hectares)": 24637.97,
      "Inauguração": 2013,
-     "Coordenadas": [ -9.271260721856041,-64.641107844670969 ], "Índice": 6.570125333333333
+     "Coordenadas": [ -9.271260721856041,-64.641107844670969 ],
+    "Índice": 6.570125333333333
     },
     {
      "ID": 85,
@@ -1770,7 +1870,8 @@
      "Estado": "São Paulo SP",
      "Área do reservatório (hectares)": 184.42,
      "Inauguração": 1958,
-     "Coordenadas": [-21.625278333333, -47.008609722222], "Índice": 5.763125
+     "Coordenadas": [-21.625278333333, -47.008609722222],
+    "Índice": 5.763125
     },
     {
      "ID": 86,
@@ -1788,7 +1889,8 @@
      "Estado": "Rio Grande do Sul RS",
      "Área do reservatório (hectares)": 6422.77,
      "Inauguração": 2002,
-     "Coordenadas": [-27.52754285520772,-51.789674615202962 ], "Índice": 5.634008771929825
+     "Coordenadas": [-27.52754285520772,-51.789674615202962 ],
+    "Índice": 5.634008771929825
     },
     {
      "ID": 148,
@@ -1805,7 +1907,8 @@
      "Estado": "Paraná PR",
      "Área do reservatório (hectares)": 7014.76,
      "Inauguração": 1992,
-     "Coordenadas": [-25.790277777778, -52.1125], "Índice": 5.567269841269842
+     "Coordenadas": [-25.790277777778, -52.1125],
+    "Índice": 5.567269841269842
     },
     {
      "ID": 31,
@@ -1822,7 +1925,8 @@
      "Estado": "Paraná PR",
      "Área do reservatório (hectares)": 1351.03,
      "Inauguração": 1971,
-     "Coordenadas": [-25.253055555556, -48.761944444444], "Índice": 5.19626923076923
+     "Coordenadas": [-25.253055555556, -48.761944444444],
+    "Índice": 5.19626923076923
     },
     {
      "ID": 1,
@@ -1840,7 +1944,8 @@
      "Estado": "Rio Grande do Sul RS",
      "Área do reservatório (hectares)": 515.61,
      "Inauguração": 2008,
-     "Coordenadas": [-29.069444444444, -51.675], "Índice": 5.1561
+     "Coordenadas": [-29.069444444444, -51.675],
+    "Índice": 5.1561
     },
     {
      "ID": 128,
@@ -1857,7 +1962,8 @@
      "Estado": "São Paulo SP",
      "Área do reservatório (hectares)": 508.14,
      "Inauguração": 1958,
-     "Coordenadas": [-22.904274901484509,-49.998259056177403], "Índice": 4.981764705882353
+     "Coordenadas": [-22.904274901484509,-49.998259056177403],
+    "Índice": 4.981764705882353
     },
     {
      "ID": 47,
@@ -1875,7 +1981,8 @@
      "Estado": "Amapá AP",
      "Área do reservatório (hectares)": 1167,
      "Inauguração": 2014,
-     "Coordenadas": [0.85730555555556, -51.197166666667], "Índice": 4.630952380952381
+     "Coordenadas": [0.85730555555556, -51.197166666667],
+    "Índice": 4.630952380952381
     },
     {
      "ID": 45,
@@ -1892,7 +1999,8 @@
      "Estado": "Minas Gerais MG",
      "Área do reservatório (hectares)": 4696.11,
      "Inauguração": 1969,
-     "Coordenadas": [-6.5873333333333, -47.459527777778], "Índice": 4.472485714285714
+     "Coordenadas": [-6.5873333333333, -47.459527777778],
+    "Índice": 4.472485714285714
     },
     {
      "ID": 130,
@@ -1910,7 +2018,8 @@
      "Estado": "Paraná PR",
      "Área do reservatório (hectares)": 4707.33,
      "Inauguração": 1975,
-     "Coordenadas": [-25.535166666667, -53.00925], "Índice": 4.366725417439703
+     "Coordenadas": [-25.535166666667, -53.00925],
+    "Índice": 4.366725417439703
     },
     {
      "ID": 119,
@@ -1928,7 +2037,8 @@
      "Estado": "Santa Catarina SC",
      "Área do reservatório (hectares)": 486.63,
      "Inauguração": 2003,
-     "Coordenadas": [-26.668694444444, -52.555722222222], "Índice": 4.05525
+     "Coordenadas": [-26.668694444444, -52.555722222222],
+    "Índice": 4.05525
     },
     {
      "ID": 12,
@@ -1946,7 +2056,8 @@
      "Estado": "Pará PA",
      "Área do reservatório (hectares)": 44000,
      "Inauguração": 2016,
-     "Coordenadas": [-3.12961391749668,-51.776339426889052 ], "Índice": 3.9170301789370603
+     "Coordenadas": [-3.12961391749668,-51.776339426889052 ],
+    "Índice": 3.9170301789370603
     },
     {
      "ID": 57,
@@ -1964,7 +2075,8 @@
      "Estado": "Mato Grosso MT",
      "Área do reservatório (hectares)": 468.36,
      "Inauguração": 2003,
-     "Coordenadas": [-15.137194444444, -58.979222222222], "Índice": 3.903
+     "Coordenadas": [-15.137194444444, -58.979222222222],
+    "Índice": 3.903
     },
     {
      "ID": 32,
@@ -1982,7 +2094,8 @@
      "Estado": "Rio Grande do Sul RS",
      "Área do reservatório (hectares)": 467.95,
      "Inauguração": 2008,
-     "Coordenadas": [-29.023055555556, -51.458333333333], "Índice": 3.5996153846153844
+     "Coordenadas": [-29.023055555556, -51.458333333333],
+    "Índice": 3.5996153846153844
     },
     {
      "ID": 116,
@@ -1999,7 +2112,8 @@
      "Estado": "Minas Gerais MG",
      "Área do reservatório (hectares)": 395.1,
      "Inauguração": 2001,
-     "Coordenadas": [-19.117230306058602,-42.663355963261573 ], "Índice": 3.5276785714285714
+     "Coordenadas": [-19.117230306058602,-42.663355963261573 ],
+    "Índice": 3.5276785714285714
     },
     {
      "ID": 107,
@@ -2016,7 +2130,8 @@
      "Estado": "Bahia BA",
      "Área do reservatório (hectares)": 8035.17,
      "Inauguração": 1979,
-     "Coordenadas": [-9.414253457341351,-38.210567981839411 ], "Índice": 3.2636758732737614
+     "Coordenadas": [-9.414253457341351,-38.210567981839411 ],
+    "Índice": 3.2636758732737614
     },
     {
      "ID": 62,
@@ -2033,7 +2148,8 @@
      "Estado": "Rio de Janeiro RJ",
      "Área do reservatório (hectares)": 514.86,
      "Inauguração": 1924,
-     "Coordenadas": [-21.843837091970428,-42.579374527792822 ], "Índice": 2.7509083137422525
+     "Coordenadas": [-21.843837091970428,-42.579374527792822 ],
+    "Índice": 2.7509083137422525
     },
     {
      "ID": 98,
@@ -2050,7 +2166,8 @@
      "Estado": "São Paulo SP",
      "Área do reservatório (hectares)": 117.8,
      "Inauguração": 2005,
-     "Coordenadas": [-23.0688633178416,-49.838158958373747 ], "Índice": 2.6772727272727272
+     "Coordenadas": [-23.0688633178416,-49.838158958373747 ],
+    "Índice": 2.6772727272727272
     },
     {
      "ID": 104,
@@ -2067,7 +2184,8 @@
      "Estado": "Bahia BA",
      "Área do reservatório (hectares)": 420.09,
      "Inauguração": 1955,
-     "Coordenadas": [-9.398180847648771,-38.202934001358543 ], "Índice": 2.3337036831287152
+     "Coordenadas": [-9.398180847648771,-38.202934001358543 ],
+    "Índice": 2.3337036831287152
     },
     {
      "ID": 23,
@@ -2085,7 +2203,8 @@
      "Estado": "Santa Catarina SC",
      "Área do reservatório (hectares)": 2048.55,
      "Inauguração": 2007,
-     "Coordenadas": [-27.603291343744921,-51.332485802851892 ], "Índice": 2.3278977272727275
+     "Coordenadas": [-27.603291343744921,-51.332485802851892 ],
+    "Índice": 2.3278977272727275
     },
     {
      "ID": 123,
@@ -2103,7 +2222,8 @@
      "Estado": "Rio de Janeiro RJ",
      "Área do reservatório (hectares)": 115.99,
      "Inauguração": 2000,
-     "Coordenadas": [-20.953847098822109,-41.716745699134812 ], "Índice": 2.1089090909090906
+     "Coordenadas": [-20.953847098822109,-41.716745699134812 ],
+    "Índice": 2.1089090909090906
     },
     {
      "ID": 80,
@@ -2120,7 +2240,8 @@
      "Estado": "Mato Grosso MT",
      "Área do reservatório (hectares)": 251.61,
      "Inauguração": 2003,
-     "Coordenadas": [-15.24505268922341,-58.728741456604219 ], "Índice": 2.0708641975308644
+     "Coordenadas": [-15.24505268922341,-58.728741456604219 ],
+    "Índice": 2.0708641975308644
     },
     {
      "ID": 74,
@@ -2137,7 +2258,8 @@
      "Estado": "Minas Gerais MG",
      "Área do reservatório (hectares)": 106.1,
      "Inauguração": 1955,
-     "Coordenadas": [-21.293055555556, -44.625], "Índice": 2.0403846153846152
+     "Coordenadas": [-21.293055555556, -44.625],
+    "Índice": 2.0403846153846152
     },
     {
      "ID": 75,
@@ -2154,7 +2276,8 @@
      "Estado": "Rio Grande do Sul RS",
      "Área do reservatório (hectares)": 362.8,
      "Inauguração": 1962,
-     "Coordenadas": [-29.068333333333, -53.226111111111], "Índice": 2.0155555555555558
+     "Coordenadas": [-29.068333333333, -53.226111111111],
+    "Índice": 2.0155555555555558
     },
     {
      "ID": 162,
@@ -2171,7 +2294,8 @@
      "Estado": "Alagoas AL",
      "Área do reservatório (hectares)": 6147.6,
      "Inauguração": 1994,
-     "Coordenadas": [-9.620554518585299,-37.791971833852656 ], "Índice": 1.9442125237191652
+     "Coordenadas": [-9.620554518585299,-37.791971833852656 ],
+    "Índice": 1.9442125237191652
     },
     {
      "ID": 25,
@@ -2189,7 +2313,8 @@
      "Estado": "Minas Gerais MG",
      "Área do reservatório (hectares)": 233.84,
      "Inauguração": 2004,
-     "Coordenadas": [-20.210002814353022,-42.853914458915703 ], "Índice": 1.6702857142857144
+     "Coordenadas": [-20.210002814353022,-42.853914458915703 ],
+    "Índice": 1.6702857142857144
     },
     {
      "ID": 52,
@@ -2207,7 +2332,8 @@
      "Estado": "Paraná PR",
      "Área do reservatório (hectares)": 197.77,
      "Inauguração": 2006,
-     "Coordenadas": [-25.724359358920069,-52.035631931246463 ], "Índice": 1.645888814913449
+     "Coordenadas": [-25.724359358920069,-52.035631931246463 ],
+    "Índice": 1.645888814913449
     },
     {
      "ID": 70,
@@ -2224,7 +2350,8 @@
      "Estado": "Rio Grande do Sul RS",
      "Área do reservatório (hectares)": 808.08,
      "Inauguração": 1979,
-     "Coordenadas": [-29.261388888889, -53.235833333333], "Índice": 1.6148681055155878
+     "Coordenadas": [-29.261388888889, -53.235833333333],
+    "Índice": 1.6148681055155878
     },
     {
      "ID": 143,
@@ -2242,7 +2369,8 @@
      "Estado": "São Paulo SP",
      "Área do reservatório (hectares)": 61.16,
      "Inauguração": 1934,
-     "Coordenadas": [-10, -55], "Índice": 1.1992156862745098
+     "Coordenadas": [-22.6942, -47.2875 ],
+    "Índice": 1.1992156862745098
     },
     {
      "ID": 89,
@@ -2260,7 +2388,8 @@
      "Estado": "Espírito Santo (estado) ES",
      "Área do reservatório (hectares)": 234.48,
      "Inauguração": 1973,
-     "Coordenadas": [-19.501820278721929,-40.919516113289319 ], "Índice": 1.184242424242424
+     "Coordenadas": [-19.501820278721929,-40.919516113289319 ],
+    "Índice": 1.184242424242424
     },
     {
      "ID": 112,
@@ -2278,7 +2407,8 @@
      "Estado": "Minas Gerais MG",
      "Área do reservatório (hectares)": 48.72,
      "Inauguração": 2006,
-     "Coordenadas": [-21.90781470001156,-43.536719201591907 ], "Índice": 0.9743999999999999
+     "Coordenadas": [-21.90781470001156,-43.536719201591907 ],
+    "Índice": 0.9743999999999999
     },
     {
      "ID": 93,
@@ -2296,7 +2426,8 @@
      "Estado": "Rio Grande do Sul RS",
      "Área do reservatório (hectares)": 126,
      "Inauguração": 2004,
-     "Coordenadas": [-29.022847402542531,-51.533035399301632 ], "Índice": 0.9692307692307692
+     "Coordenadas": [-29.022847402542531,-51.533035399301632 ],
+    "Índice": 0.9692307692307692
     },
     {
      "ID": 105,
@@ -2313,7 +2444,8 @@
      "Estado": "Bahia BA",
      "Área do reservatório (hectares)": 420.09,
      "Inauguração": 1961,
-     "Coordenadas": [-9.398180847648771,-38.202934001358543], "Índice": 0.9482844243792324
+     "Coordenadas": [-9.398180847648771,-38.202934001358543],
+    "Índice": 0.9482844243792324
     },
     {
      "ID": 71,
@@ -2329,7 +2461,8 @@
      "Estado": "Mato Grosso MT",
      "Área do reservatório (hectares)": 145.74,
      "Inauguração": 2002,
-     "Coordenadas": [-17.083009099739431,-54.875656599665163 ], "Índice": 0.9260977314608884
+     "Coordenadas": [-17.083009099739431,-54.875656599665163 ],
+    "Índice": 0.9260977314608884
     },
     {
      "ID": 58,
@@ -2346,7 +2479,8 @@
      "Estado": "Minas Gerais MG",
      "Área do reservatório (hectares)": 87.76,
      "Inauguração": 1997,
-     "Coordenadas": [-19.677689143688639,-42.917832884317697 ], "Índice": 0.6268571428571429
+     "Coordenadas": [-19.677689143688639,-42.917832884317697 ],
+    "Índice": 0.6268571428571429
     },
     {
      "ID": 125,
@@ -2363,7 +2497,8 @@
      "Estado": "Minas Gerais MG",
      "Área do reservatório (hectares)": 41.99,
      "Inauguração": 1951,
-     "Coordenadas": [-10, -55], "Índice": 0.5383333333333333
+     "Coordenadas": [-19.635555555556, -42.806388888889],
+    "Índice": 0.5383333333333333
     },
     {
      "ID": 106,
@@ -2380,7 +2515,8 @@
      "Estado": "Bahia BA",
      "Área do reservatório (hectares)": 420.09,
      "Inauguração": 1971,
-     "Coordenadas": [-9.398180847648771,-38.202934001358543], "Índice": 0.5289473684210526
+     "Coordenadas": [-9.398180847648771,-38.202934001358543],
+    "Índice": 0.5289473684210526
     },
     {
      "ID": 46,
@@ -2398,7 +2534,8 @@
      "Estado": "São Paulo SP",
      "Área do reservatório (hectares)": 45.09,
      "Inauguração": 1960,
-     "Coordenadas": [-21.602934, -46.949918], "Índice": 0.4144301470588236
+     "Coordenadas": [-21.602934, -46.949918],
+    "Índice": 0.4144301470588236
     },
     {
      "ID": 90,
@@ -2416,7 +2553,8 @@
      "Estado": "Paraná PR",
      "Área do reservatório (hectares)": 136.59,
      "Inauguração": 2012,
-     "Coordenadas": [-24.06283391556935,-50.707719358035973 ], "Índice": 0.3783656509695291
+     "Coordenadas": [-24.06283391556935,-50.707719358035973 ],
+    "Índice": 0.3783656509695291
     },
     {
      "ID": 131,
@@ -2434,7 +2572,8 @@
      "Estado": "Santa Catarina SC",
      "Área do reservatório (hectares)": 18.18,
      "Inauguração": 2009,
-     "Coordenadas": [-27.096583333333, -49.467527777778], "Índice": 0.09474177914430143
+     "Coordenadas": [-27.096583333333, -49.467527777778],
+    "Índice": 0.09474177914430143
     },
     {
      "ID": 154,
@@ -2451,7 +2590,8 @@
      "Estado": "Minas Gerais MG",
      "Área do reservatório (hectares)": 4.58,
      "Inauguração": 1998,
-     "Coordenadas": [-21.981472222222, -43.350277777778], "Índice": 0.07633333333333334
+     "Coordenadas": [-21.981472222222, -43.350277777778],
+    "Índice": 0.07633333333333334
     }
     
 ]
