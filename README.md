@@ -3,3 +3,6 @@ Este projeto visa mostrar de maneira gráfica em um mapa a localização das usi
 
 # Dia 28/10
 Organizei o tamanho dos círculos azuis, não tenho muito certeza se peguei a escala certa mas está melhor do que antes. Peguei coordenadas de usinas que estavam faltando.
+
+# Dia 31/10
+Organizei a legenda para o mapa
