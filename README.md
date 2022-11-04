@@ -6,3 +6,9 @@ Organizei o tamanho dos círculos azuis, não tenho muito certeza se peguei a es
 
 # Dia 31/10
 Organizei a legenda para o mapa
+
+# Dia 03/11
+Coloquei a legenda como uma div sobrepondo a div do mapa
+
+# Dia 04/11
+Consegui implementar a função de troca de camadas, atualmente as camadas azul e laranja do alvo trocam a sobreposição entre si e ficam acima de todas as outras

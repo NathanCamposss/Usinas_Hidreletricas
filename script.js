@@ -33,7 +33,7 @@ var prevZoom = map.getZoom();
 var circle = new Array();
 var circle1 = new Array();
 var raios = new Array(), raios1 = new Array();
-var auxiliar, auxiliarA, menorAux = 10000000000000000, maiorAux = -1;
+var auxiliar, auxiliarA, menorAux = 10000000000000000, maiorAux = -1, cod = new Array();
 var aux;
 var menorP = 100000000000;
 var maiorP = -1;
@@ -61,11 +61,12 @@ for(var i=0;i<data.length;i++){
     }
 }
 
+map.doubleClickZoom.disable(); 
+
 //Criação dos raios dos círculos de área e de potência
 for(var i=0;i<data.length;i++){
     auxiliar = Math.log10(menorP)+((Math.log10(maiorP)+Math.log10(menorP))/4)*data[i]["Potência"];
     auxiliarA = Math.log10(menorA)+((Math.log10(maiorA)+Math.log10(menorA))/6)*data[i]["Área do reservatório (hectares)"];
-
     if(maiorAux<auxiliarA){
         maiorAux = auxiliarA;
     }
@@ -176,14 +177,24 @@ for(var i=0;i<data.length;i++){
 for(var i =0; i<data.length;i++){
     aux = 1*100/data[i]["Índice"];
     if(raios1[i]>raios[i]){
+        cod.push(1);
+
         circle1.push(L.circle([data[i]['Coordenadas'][0], data[i]['Coordenadas'][1]], {
             color: 'blue',
             fillColor: '#0000ff',
             fillOpacity: 0.7,
             radius: raios1[i]
         })
-        .bindPopup("Usina hidrelétrica "+data[i]['Usina hidrelétrica']+": "+ (data[i]["Área do reservatório (hectares)"]).toFixed(0)+" hectares")
-        .addTo(map));
+        .bindPopup(data[i]['Usina hidrelétrica']+": "+ (data[i]["Área do reservatório (hectares)"]).toFixed(0)+" hectares")
+        .addTo(map).on("dblclick", function(){
+            for(var i=0;i<data.length;i++){
+                if(this._popup._content == data[i]['Usina hidrelétrica']+": "+ (data[i]["Área do reservatório (hectares)"]).toFixed(0)+" hectares"){
+                    trocarSobreposicao(i);
+                    break;
+                }
+                
+            }
+        }));
     
     
         circle.push(L.circle([data[i]['Coordenadas'][0], data[i]['Coordenadas'][1]], {
@@ -193,11 +204,22 @@ for(var i =0; i<data.length;i++){
             radius:  raios[i]
             
         })
-        .bindPopup("Potência gerada de "+data[i]['Usina hidrelétrica']+": "+data[i]['Potência']+"MW")
-        .addTo(map));
+        .bindPopup(data[i]['Usina hidrelétrica']+": "+data[i]['Potência']+"MW")
+        .addTo(map).on("dblclick", function(){
+            for(var i=0;i<data.length;i++){
+                if(this._popup._content == data[i]['Usina hidrelétrica']+": "+data[i]['Potência']+"MW"){
+                    trocarSobreposicao(i);
+                    break;
+                }
+                
+            }
+        }));
     }
 
     if(raios1[i]<raios[i]){
+        cod.push(0);
+        
+
         circle.push(L.circle([data[i]['Coordenadas'][0], data[i]['Coordenadas'][1]], {
             color: 'orange',
             fillColor: '#ffa500',
@@ -205,8 +227,16 @@ for(var i =0; i<data.length;i++){
             radius:  raios[i]
             
         })
-        .bindPopup("Potência gerada de "+data[i]['Usina hidrelétrica']+": "+data[i]['Potência']+"MW")
-        .addTo(map));
+        .bindPopup(data[i]['Usina hidrelétrica']+": "+data[i]['Potência']+"MW")
+        .addTo(map).on("dblclick", function(){
+            for(var i=0;i<data.length;i++){
+                if(this._popup._content == data[i]['Usina hidrelétrica']+": "+data[i]['Potência']+"MW"){
+                    trocarSobreposicao(i);
+                    break;
+                }
+                
+            }
+        }));
 
         circle1.push(L.circle([data[i]['Coordenadas'][0], data[i]['Coordenadas'][1]], {
             color: 'blue',
@@ -214,8 +244,16 @@ for(var i =0; i<data.length;i++){
             fillOpacity: 0.7,
             radius: raios1[i]
         })
-        .bindPopup("Usina hidrelétrica "+data[i]['Usina hidrelétrica']+": "+ (data[i]["Área do reservatório (hectares)"]).toFixed(0)+" hectares")
-        .addTo(map));
+        .bindPopup(data[i]['Usina hidrelétrica']+": "+ (data[i]["Área do reservatório (hectares)"]).toFixed(0)+" hectares")
+        .addTo(map).on("dblclick", function(i){
+            for(var i=0;i<data.length;i++){
+                if(this._popup._content == data[i]['Usina hidrelétrica']+": "+ (data[i]["Área do reservatório (hectares)"]).toFixed(0)+" hectares"){
+                    trocarSobreposicao(i);
+                    break;
+                }
+                
+            }
+        }));
     }
     
    
@@ -226,17 +264,18 @@ map.on("zoomend", function(){
     if(prevZoom>map.getZoom()){
         prevZoom = map.getZoom();
         for(var i=0;i<data.length;i++){
-            raios[i] = raios[i]*1.5625; //porcentagem;
-            raios1[i] = raios1[i]*1.5625; //porcentagem;
+            raios[i] = raios[i]*1.5625; 
+            raios1[i] = raios1[i]*1.5625; 
             circle[i].setRadius(raios[i]);
             circle1[i].setRadius(raios1[i]);
+            
         }
     }
     if(prevZoom<map.getZoom()){
         prevZoom = map.getZoom();
         for(var i=0;i<data.length;i++){
-            raios[i] = raios[i]*0.64; // porcentagem;
-            raios1[i] = raios1[i]*0.64; //porcentagem;
+            raios[i] = raios[i]*0.64; 
+            raios1[i] = raios1[i]*0.64; 
             circle[i].setRadius(raios[i]);
             circle1[i].setRadius(raios1[i]);
         }
@@ -244,8 +283,82 @@ map.on("zoomend", function(){
     } 
 )
 
+//função responsável por trocar a sobreposição da camada laranja com a camada azul de uma determinada coordenada
+function trocarSobreposicao(indice){
+    circle[indice].remove();
+    circle1[indice].remove();
+    if(cod[indice]==1){
+        circle[indice] = (L.circle([data[indice]['Coordenadas'][0], data[indice]['Coordenadas'][1]], {
+            color: 'orange',
+            fillColor: '#ffa500',
+            fillOpacity: 0.7,
+            radius:  raios[indice]
+            
+        })
+        .bindPopup(data[indice]['Usina hidrelétrica']+": "+data[indice]['Potência']+"MW")
+        .addTo(map).on("dblclick", function(){
+            for(var i=0;i<data.length;i++){
+                if(this._popup._content == data[i]['Usina hidrelétrica']+": "+data[i]['Potência']+"MW"){
+                    trocarSobreposicao(i);
+                    break;
+                }
+                
+            }
+        }));
 
-
- 
-
-
+        circle1[indice] = (L.circle([data[indice]['Coordenadas'][0], data[indice]['Coordenadas'][1]], {
+            color: 'blue',
+            fillColor: '#0000ff',
+            fillOpacity: 0.7,
+            radius: raios1[indice]
+        })
+        .bindPopup(data[indice]['Usina hidrelétrica']+": "+ (data[indice]["Área do reservatório (hectares)"]).toFixed(0)+" hectares")
+        .addTo(map).on("dblclick", function(){
+            for(var i=0;i<data.length;i++){
+                if(this._popup._content == data[i]['Usina hidrelétrica']+": "+ (data[i]["Área do reservatório (hectares)"]).toFixed(0)+" hectares"){
+                    trocarSobreposicao(i);
+                    break;
+                }
+                
+            }
+        }));
+    }
+    if(cod[indice]==0){
+        circle1[indice] = (L.circle([data[indice]["Coordenadas"][0], data[indice]["Coordenadas"][1]], {
+            color: 'blue',
+            fillColor: '#0000ff',
+            fillOpacity: 0.7,
+            radius: raios1[indice]
+        })
+        .bindPopup(data[indice]['Usina hidrelétrica']+": "+ (data[indice]["Área do reservatório (hectares)"]).toFixed(0)+" hectares")
+        .addTo(map).on("dblclick", function(){
+            for(var i=0;i<data.length;i++){
+                if(this._popup._content == data[i]['Usina hidrelétrica']+": "+ (data[i]["Área do reservatório (hectares)"]).toFixed(0)+" hectares"){
+                    trocarSobreposicao(i);
+                    break;
+                }
+                
+            }
+        }));
+    
+    
+        circle[indice] = (L.circle([data[indice]['Coordenadas'][0], data[indice]['Coordenadas'][1]], {
+            color: 'orange',
+            fillColor: '#ffa500',
+            fillOpacity: 0.7,
+            radius:  raios[indice]
+            
+        })
+        .bindPopup(data[indice]['Usina hidrelétrica']+": "+data[indice]['Potência']+"MW")
+        .addTo(map).on("dblclick", function(){
+            for(var i=0;i<data.length;i++){
+                if(this._popup._content == data[i]['Usina hidrelétrica']+": "+data[i]['Potência']+"MW"){
+                    trocarSobreposicao(i);
+                    break;
+                }
+                
+            }
+        }));
+    }
+    cod[indice]==1?cod[indice]=0:cod[indice]=1;
+}
