@@ -7,5 +7,8 @@
     "test": "npm run build index.html"
   },
   "author": "Nathan",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "leaflet.control.select": "^0.2.2"
+  }
 }

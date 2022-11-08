@@ -10,20 +10,22 @@
     <script src="https://unpkg.com/leaflet@1.9.2/dist/leaflet.js"
     integrity="sha256-o9N1jGDZrf5tS+Ft4gbIK7mYMipq9lqpVJ91xHSyKhg="
     crossorigin=""></script>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
     <script type="module" src="./script.js"> </script>
     <title>chart</title>
     <style>
         #map { 
-            height: 645px;
+            height: 100%;
             width: 100%;
-            float: left;
+            left:0px;
             top: 0px;
             position: fixed;
             z-index: 0;
          }
         
         .first-child{
-            top: 460px;
+            top: 450px;
             background-color: rgb(236, 233, 229);
             border-radius: 5px;
             border-style: solid;
@@ -40,6 +42,7 @@
             border-radius: 5px;
             border-style: solid;
             border-color: black;
+            height: 125px;
             width: 160px;
             float: left;
             position: relative;
@@ -47,14 +50,18 @@
             
         }
 
+        p {
+            font-size: 14px;
+        }
+
 
     </style>
 </head>
 <body> 
+    
     <div id="map"></div> 
     <div class="divs first-child">
         
-        <!--<p>Legenda:</p> -->
         <svg height="37" width="100">
             <circle cx="52" cy="20" r="15" style="stroke-width:4; stroke: orange; stroke-dasharray: 0; fill: #ffa500; fill-opacity: 0.7;"/>
         </svg>
@@ -64,12 +71,10 @@
         </svg>
         <pre>  Área alagada</pre>
     </div>
-    <div class="divs second-child">
+   <!--  <div class="divs second-child">
         <p> Ações:</p>
-        <p>Cliques duplos: Troca a sobreposição de camadas atual do alvo</p>
-    </div>
-    
-    
-    
+        <p>Clique simples: info</p>
+        <p>Clique duplo: Troca a sobreposição de camadas atual do alvo</p>
+    </div>  -->  
 </body>
 </html>
