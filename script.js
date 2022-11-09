@@ -327,6 +327,7 @@ function organizaVetor(dat){
 
 var data = data1, vtr = data1;
 data = organizaVetor(data);
+vtr = organizaAlfabeto(vtr);
 
 
 // Cria o mapa
@@ -564,7 +565,7 @@ for(var i =0; i<data.length;i++){
  
 } 
 
-vtr = organizaAlfabeto(vtr);
+//vtr = organizaAlfabeto(vtr);
 
 //função que ajusta o tamanho dos círculos de acordo com o nivel de zoom
 map.on("zoomend", function(){
