@@ -1,7 +1,7 @@
 
 
 import data1 from "./usinas1.json" assert {type: "json"};
-"use strict";
+//"use strict";
 
 
 
@@ -284,6 +284,28 @@ L.control.select = function (options) {
   return new L.Control.Select(options);
 };
 
+
+//função que organiza o vetor por ordem alfabética de nome de usina
+function organizaAlfabeto(valor){
+  var auxi;
+  for(var i =0;i<valor.length;i++){
+    for(var j=0;j<valor.length;j++){
+      if(valor[i]['Usina hidrelétrica']<valor[j]['Usina hidrelétrica']){
+        auxi = valor[j];
+        valor[j] = valor[i];
+        valor[i] = auxi;
+      }
+    }
+  }
+  auxi = valor[139]
+
+  for(var i=valor.length-1;i>=2;i--){
+    valor[i] = valor[i-1]
+  }
+  valor[1] = auxi;
+  return valor;
+}
+
 // função que organiza o vetor de objetos começando com aquele que tem maior potência até o de menor potência
 function organizaVetor(dat){
   var aux;
@@ -305,7 +327,9 @@ function organizaVetor(dat){
   return dat;
 }
 
-var data = organizaVetor(data1);
+var data = data1, vtr = data1;
+data = organizaVetor(data);
+
 
 // Cria o mapa
 var map = L.map('map').setView([-12, -53], 4);
@@ -542,6 +566,8 @@ for(var i =0; i<data.length;i++){
  
 } 
 
+vtr = organizaAlfabeto(vtr);
+
 
 
 //função que ajusta o tamanho dos círculos de acordo com o nivel de zoom
@@ -640,57 +666,18 @@ function trocarSobreposicao(indice){
   }
   cod[indice]==1?cod[indice]=0:cod[indice]=1;
 }
-/* var pri = [], seg = [], terc = [], quar = [], qui = [], sex = [], set = []
-for(var i =0;i<data.length;i++){
-  if(data[i]['Potência']<=14000 && data[i]['Potência']>=1274){
-    pri.push({label: data[i]['Usina hidrelétrica'], value: data[i]['Coordenadas']})
-  }
-  if(data[i]['Potência']<=1260 && data[i]['Potência']>=509){
-    seg.push({label: data[i]['Usina hidrelétrica'], value: data[i]['Coordenadas']})
-  }
-  if(data[i]['Potência']<=501 && data[i]['Potência']>=319){
-    terc.push({label: data[i]['Usina hidrelétrica'], value: data[i]['Coordenadas']})
-  }
-  if(data[i]['Potência']<=264 && data[i]['Potência']>=179){
-    quar.push({label: data[i]['Usina hidrelétrica'], value: data[i]['Coordenadas']})
-  }
-  if(data[i]['Potência']<=177 && data[i]['Potência']>=111){
-    qui.push({label: data[i]['Usina hidrelétrica'], value: data[i]['Coordenadas']})
-  }
-  if(data[i]['Potência']<=109 && data[i]['Potência']>=67){
-    sex.push({label: data[i]['Usina hidrelétrica'], value: data[i]['Coordenadas']})
-  }
-  if(data[i]['Potência']<67){
-    set.push({label: data[i]['Usina hidrelétrica'], value: data[i]['Coordenadas']})
-  }
-}
 
-var items = [
-  {label: "14000 - 1274 MW", value: 'pri', items: pri},
-  {label: "1260 - 509 MW", value: "seg", items: seg},
-  {label: "501 - 319 MW", value: "terc", items: terc},
-  {label: "264 - 179 MW", value: "quar", items: quar},
-  {label: "177 - 111 MW", value: "qui", items: qui},
-  {label: "109 - 67 MW", value: "sex", items: sex},
-  {label: "Menor que 67 MW", value:'set', items: set}
-]; */
 var items = [];
 for(var i =0;i<data.length;i++){
-  items.push({label: data[i]['Usina hidrelétrica'], value: data[i]['Coordenadas']}); 
+  items.push({label: vtr[i]['Usina hidrelétrica'], value: vtr[i]['Coordenadas']}); 
 }
-
-var defaultValue = items[0].value;
+// funçaõ utilizada para criar o 'menu' de pesquisa ao lado esquerdo
 L.control.select({
   position: "topleft",
   selectedDefault: false,
   items: items,
   onSelect: function (newItemValue) {
-      for(var i=0;i<data.length;i++){
-        if(data[i]['Coordenadas']==newItemValue){
-              map.flyTo(newItemValue, 7);
-              
-        }
-      }
+    map.flyTo(newItemValue, 7);
   },
   })
   .addTo(map);
