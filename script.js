@@ -1,10 +1,8 @@
 
 
 import data1 from "./usinas1.json" assert {type: "json"};
-//"use strict";
 
-
-
+// extensão de classe
 L.Control.Select = L.Control.extend({
   options: {
     position: "topright",
@@ -567,8 +565,6 @@ for(var i =0; i<data.length;i++){
 } 
 
 vtr = organizaAlfabeto(vtr);
-
-
 
 //função que ajusta o tamanho dos círculos de acordo com o nivel de zoom
 map.on("zoomend", function(){

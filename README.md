@@ -12,3 +12,6 @@ Coloquei a legenda como uma div sobrepondo a div do mapa
 
 # Dia 04/11
 Consegui implementar a função de troca de camadas, atualmente as camadas azul e laranja do alvo trocam a sobreposição entre si e ficam acima de todas as outras
+
+# Dia 9/11
+Implementei uma aba de busca que centraliza o mapa para a coordenada da usina desejada
