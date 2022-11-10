@@ -504,8 +504,8 @@ for(var i =0; i<data.length;i++){
   
   
       circle.push(L.circle([data[i]['Coordenadas'][0], data[i]['Coordenadas'][1]], {
-          color: 'orange',
-          fillColor: '#ffa500',
+          color: 'yellow',
+          fillColor: '#FFFF00',
           fillOpacity: 0.7,
           radius:  raios[i]
           
@@ -527,8 +527,8 @@ for(var i =0; i<data.length;i++){
       
 
       circle.push(L.circle([data[i]['Coordenadas'][0], data[i]['Coordenadas'][1]], {
-          color: 'orange',
-          fillColor: '#ffa500',
+          color: 'yellow',
+          fillColor: '#FFFF00',
           fillOpacity: 0.7,
           radius:  raios[i]
           
@@ -577,6 +577,7 @@ map.on("zoomend", function(){
           raios1[i] = raios1[i]*porcentagem; 
           circle[i].setRadius(raios[i]);
           circle1[i].setRadius(raios1[i]);
+
           
       }
   } 
@@ -590,8 +591,8 @@ function trocarSobreposicao(indice){
   circle1[indice].remove();
   if(cod[indice]==1){
       circle[indice] = (L.circle([data[indice]['Coordenadas'][0], data[indice]['Coordenadas'][1]], {
-          color: 'orange',
-          fillColor: '#ffa500',
+          color: 'yellow',
+          fillColor: '#FFFF00',
           fillOpacity: 0.7,
           radius:  raios[indice]
           
@@ -644,8 +645,8 @@ function trocarSobreposicao(indice){
   
   
       circle[indice] = (L.circle([data[indice]['Coordenadas'][0], data[indice]['Coordenadas'][1]], {
-          color: 'orange',
-          fillColor: '#ffa500',
+          color: 'yellow',
+          fillColor: '#FFFF00',
           fillOpacity: 0.7,
           radius:  raios[indice]
           
@@ -664,17 +665,32 @@ function trocarSobreposicao(indice){
   cod[indice]==1?cod[indice]=0:cod[indice]=1;
 }
 
+
 var items = [];
 for(var i =0;i<data.length;i++){
   items.push({label: vtr[i]['Usina hidrelétrica'], value: vtr[i]['Coordenadas']}); 
 }
+
+map.on('moveend', function(){
+  var loc = map.getCenter();
+  for(var i =0;i<vtr.length;i++){
+    if(vtr[i]['Coordenadas'][0]==loc['lat'] && vtr[i]['Coordenadas'][1]==loc['lng']){
+      var popup = L.popup()
+      .setLatLng(vtr[i]['Coordenadas'])
+      .setContent(vtr[i]['Usina hidrelétrica'])
+      .openOn(map);
+    }
+  }
+})
+
+
 // funçaõ utilizada para criar o 'menu' de pesquisa ao lado esquerdo
 L.control.select({
   position: "topleft",
   selectedDefault: false,
   items: items,
   onSelect: function (newItemValue) {
-    map.flyTo(newItemValue, 7);
+    map.setView([newItemValue[0], newItemValue[1]], 10)
   },
   })
   .addTo(map);
