@@ -15,3 +15,6 @@ Consegui implementar a função de troca de camadas, atualmente as camadas azul 
 
 # Dia 9/11
 Implementei uma aba de busca que centraliza o mapa para a coordenada da usina desejada
+
+# Dia 10/11
+Consegui corrigir a abertura do _pop up_ no local de pesquisa da usina
