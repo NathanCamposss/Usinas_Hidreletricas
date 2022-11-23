@@ -1,0 +1,53 @@
+    Contexto do projeto:
+    O projeto em questão foi construido utilizando tecnologias como html, javascript e sua biblioteca Leaflet. Esse produto é
+responsável por demonstrar duas informações diferentes: a potência instalada em MW e o tamanho do lago de cada usina hidrelétrica.
+O infográfico apresenta essas informações por meio de um mapa, utilizado para mostrar a localização de cada usina, e circulos,
+Cada usina possuí dois circulos, um representando a potência e o outro representando o tamanho do lago. O tamanho de cada circulo
+varia de acordo com o valor que ele representa.
+    Os dados para plotar esse gráfico vieram de duas tabelas, uma da ANEEL e outra da ANA, as coordenadas de cada usina foram
+adquiridas por meio de pesquisas manuais.
+    Essas duas tabelas estavam no formato de arquivo do excel, para facilitar a utilização dos dados elas foram transformadas
+em um arquivo .json por meio de um conversor online para facilitar a implementação do projeto.
+    Esse tipo de informação é de suma importância pois a densidade energética (expressa em MW/ha) é um dos critérios utilizados
+para um empreendimento tido como sustentável e capaz de pleitear Climate Bonds (financiamento a baixo custo).
+    O infográfico também é útil para avaliar a 'eficiência' de uma usina hidrelétrica e se ela foi instalada de maneira satisfatória,
+uma usina cujo o círculo azul é muito maior que o amarelo indica que ele possui uma baixa eficiência energética, tendo em vista que
+ele possui o tamanho necessário para produzir mais energia mas por algum fator não o consegue, indicando que a mesma pode 
+representar uma agressão ambiental.
+
+
+    Leaflet/ Javascript:
+    O software, além de mostrar as duas características de cada usina ele também pode fazer uma busca por uma usina específica
+por meio de um layout na parte superior esquerda do mapa com o simbolo de 3 riscos nas horizontal, nele há a lista de todas
+as usinas organizadas por ordem alfabética.
+    Para implementar essa lista de procura das localizações foi necessário copiar trechos de código de módulos do node.js, 
+mais especificamente um chamado L.contro.select. Sem esses trechos de código o software não funciona direito pois a classe 
+utilizado para criar esse layout (construtor do L.control.select) não existe naturalemente na biblioteca leaflet, sendo
+necessário que a mesma fosse extendida de uma classe já existente, que no caso seria a L.control.
+    Devido a posição das usinas e o tamanho dos círculos de cada um é possível que haja sobreposição entre as áreas das usinas.
+Outro problema encontrado foi o o tamanho quase idêntico dos circulos de uma mesma usina, as vezes ele ocupam praticamente a
+mesma área, o que por sua vez, impossibilita de saber o valor da bolha da camada mais inferior pois o 'pop up' se abriria com
+o clique na mesma, mas estando outra por cima essa ação não traria a informação desejada. Para contornar esses dois problemas
+foi implementado a ação de clique duplo, além de trazer os círculos da usina determinada acima de todas as outras ela também 
+alterna o nível das bolhas da usina escolhida, a que estava mais acima vai para baixo e vice versa.
+    Como as coordenadas de cada instalção foi procurada manualmente é possível que algumas localizações possam estar erradas
+para corrigir isso basta entrar no arquivo 'usinas1.json', procurar a hidrelétrica que possui dados equivocados e mudar o 
+campo com erro.
+
+    HTML:
+    Umas pequenas questões de aparência no software como por exemplo a legenda, o scroll da lista e a info de ações foram
+implementadas via HTML, mais especificamente com a tag style. O uso dessa tag possibilitou ações como:
+    - Criação da legenda;
+    - Sobreposição da legenda e info de ações sobre o mapa;
+    - Possibilidade de Scroll da lista de usinas (sem ela a lista ultrapassaria o tamnho da tela e não mostraria todas as usinas).
+
+    Github:
+    A implementação do projeto foi salva no github junto com a tabela utilizada no formato .json. Como na tabela original
+havia algumas usinas que ainda não foram instaladas e ou não possuiam o campo da área do lago foi necessário dividir a 
+tabela em dois arquivos diferentes, um que foi utilizado para montar o infográfico e outra contendo as usinas que não 
+possuem a informação da área, isso foi feito para possibilitar que futuramente essas usinas possam ser utilizadas no mapa.
+    Além disso o Github também foi usado para testar como ficaria o deploy do software, por meio de uma função do site foi
+possível criar um domínio na internet a qual o projeto está presente.
+    As mudanças que são feitas e atualizadas no arquivo HTML muda automaticamente a maneira como o deploy é visto, já as 
+mudanças feitas em qualquer outro arquivo não é mostrado imediatamente na página web, as vezes pode ser necessário limpar 
+o cache da página do navegador para atualizar a interface.
